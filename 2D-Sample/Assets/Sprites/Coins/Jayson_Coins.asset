@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Jayson_Coins
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 3480108747358973400, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: 6657680865660349346, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: -5916499200602161688, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: -4101137667250884865, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: -3483414649681703180, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: 6063784194949727321, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: 5598067098026296938, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: 8336010833059898832, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  - {fileID: -6903443230819514878, guid: 556a47c5e539d0645bdc32a673c67636, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
