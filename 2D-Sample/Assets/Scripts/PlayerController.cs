@@ -19,14 +19,16 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Left Right Movement
         _rb.velocityX = Input.GetAxis("Horizontal") * _moveSpeed * Time.deltaTime;
+        
         // Jump
+        Debug.Log("Jump Input : " + Input.GetAxis("Jump") + " : " + Time.deltaTime);
         if (Input.GetAxis("Jump") >= Mathf.Epsilon && _groundedDetector._isGrounded == true)
         {
-            _rb.velocityY = Input.GetAxis("Jump") * _jumpForce * Time.deltaTime;
+            _rb.velocityY = _jumpForce * Time.deltaTime;
         }   
         
     }

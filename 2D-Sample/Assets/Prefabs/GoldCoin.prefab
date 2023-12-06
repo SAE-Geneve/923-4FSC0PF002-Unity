@@ -50,13 +50,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7126271352091335747, guid: ae8d320f6f2fae346b52e125cb12fde0, type: 3}
       propertyPath: m_Name
-      value: Coin Variant
+      value: GoldCoin
       objectReference: {fileID: 0}
     - target: {fileID: 7653187070939454550, guid: ae8d320f6f2fae346b52e125cb12fde0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 9f9df1e51536982419b0e119f8a18f4e, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2994823214051801830, guid: ae8d320f6f2fae346b52e125cb12fde0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

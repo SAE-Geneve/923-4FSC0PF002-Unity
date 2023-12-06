@@ -10,7 +10,7 @@ public class GroundedDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("ground"))
+        if (other.gameObject.CompareTag("Ground"))
         {
             _isGrounded = true;
         }    
