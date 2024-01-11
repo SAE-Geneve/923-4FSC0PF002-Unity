@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=58ef0596836820043a007d9681967373&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="MainPanel" style="flex-grow: initial; flex-basis: 50%; flex-shrink: initial; margin-top: 18px; margin-right: 18px; margin-bottom: 18px; margin-left: 18px; flex-direction: column; max-height: none; max-width: 66%;">
+        <ui:Label text="Label" name="StringLabel" />
+        <ui:Slider label="Slider" value="0" high-value="1" name="FloatSlider" low-value="-1" />
+        <ui:Button text="Click to debug log" name="DebugLogButton" />
+    </ui:VisualElement>
+    <ui:TextField label="String input" placeholder-text="filler text" name="TextInput" />
+</ui:UXML>

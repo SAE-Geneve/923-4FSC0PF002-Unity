@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Events/StyleSheet.uss?fileID=7433441132597879392&amp;guid=cdb3a9f7789147e41aa62fdb9a66b192&amp;type=3#StyleSheet" />
+    <ui:Label text="Label" name="Score" />
+</ui:UXML>
