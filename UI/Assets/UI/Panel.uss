@@ -1,0 +1,17 @@
+.button-red {
+    background-color: rgb(113, 101, 204);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    transition-property: background-color;
+    transition-duration: 0.35s;
+}
+
+.button-red:hover {
+    background-color: rgb(57, 61, 180);
+}
+
+.button-red:active {
+    background-color: rgba(55, 53, 141, 0.71);
+}
